@@ -6,7 +6,7 @@ class Solution {
             int rem = x % 10; //generate last digit
             x = x / 10;   
             //it will take care exceeded of max and min of INT values
-            if (rev > Integer.MAX_VALUE / 10 ||
+            if (rev > Integer.MAX_VALUE / 10 || 
                 rev < Integer.MIN_VALUE / 10) {
                 return 0;
             }
