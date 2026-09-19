@@ -7,8 +7,8 @@ public class Main {
     int count=0;
     while(n>0){
       int rem=n%10; //it will generate last digit
-      count++;
-      n=n/10;         
+      count++;      // every time when digit exist the count will incresed by 1
+      n=n/10;       // remove last digit after the count   
     }
     System.out.println(count);
   }
