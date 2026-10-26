@@ -1,5 +1,5 @@
 // LC 121
-
+// prices = [7,1,5,3,6,4]
 class Solution {
     public int maxProfit(int[] prices) {
         int min =prices[0];    //initially 1st element of the array is min 
