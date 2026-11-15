@@ -1,4 +1,4 @@
-// LC 242
+ // LC 242
 class Solution {
     public boolean isAnagram(String s, String t) {
 
