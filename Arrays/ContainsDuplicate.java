@@ -7,7 +7,7 @@ class Solution {
                                                         // <Integer> means type of data stored and set is a variable name
 
         for (int i = 0; i < nums.length; i++) {         
-
+ 
             if (set.contains(nums[i])) {              // here checks whether the element in i th position is already there in a set
                 return true;                          // if yes it will returns true and program will end here
             }
